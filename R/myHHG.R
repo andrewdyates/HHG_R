@@ -3,9 +3,6 @@
 
 myHHG<- function (Dx, Dy, w_sum = 0, w_max = 2) 
 {
-
-
-
     n = dim(Dx)[1]
     cutoff = 0
     sum_chi_flag = 1
@@ -26,8 +23,9 @@ myHHG<- function (Dx, Dy, w_sum = 0, w_max = 2)
     out.sum.lr.stat = out2[[11]]
     out.max.chisquared.stat = out2[[12]]
     out.max.lr.stat = out2[[13]]
+    normed_sum_chisquared = out2[[10]]/(n*(n-1)*(n-2))
 
-    return(list(sum_chisquared = out2[[10]], sum_lr=out2[[11]], max_chisquared=out2[[12]], max_lr=out2[[13]] ))
+    return(list(sum_chisquared = out2[[10]], sum_lr=out2[[11]], max_chisquared=out2[[12]], max_lr=out2[[13]], normed_sum_chisquared = out2[[10]]/n/(n-1)/(n-2) ))
 
 }
 
