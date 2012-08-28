@@ -1,10 +1,10 @@
 Compile:
 
-    R CMD INSTALL HHG2x2 -l /Users/z/Desktop/HHG2x2/
+    R CMD INSTALL HHG2x2 -l /path/to/HHG_R/
 
 Run in R:
 
-    > library("HHG2x2", lib.loc="/Users/z/Desktop/HHG2x2")
+    > library("HHG2x2", lib.loc="/path/to/HHG_R")
     > X = datagen4indclouds(50); 
     > Dx = as.matrix(dist((X[1,]),diag=TRUE,upper=TRUE))
     > Dy = as.matrix(dist((X[2,]),diag=TRUE,upper=TRUE))
