@@ -1,0 +1,11 @@
+Package: HHG2x2
+Type: Package
+Title: A nonparametric test of independence between two random vectors
+        based on distances.
+Version: 0.1-1
+Date: 2012-04-23
+Author: Ruth Heller <ruheller@post.tau.ac.il>,  Yair Heller <heller.yair@gmail.com>
+Maintainer: Ruth Heller <ruheller@gmail.com>
+Description: A nonparametric test of independence between two random vectors, by using the pairwise distances between the obsrevations. For details, see Heller R, Heller Y. and Gorfine M. (2012). 
+License: GPL-2
+Packaged: 2012-05-17 16:26:58 UTC; Shay

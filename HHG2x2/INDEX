@@ -1,0 +1,13 @@
+HHG2x2-package          A nonparametric test of independence between
+                        two random vectors based on distances.
+datagen2Parabolas       The Hyperbola generating function
+datagen4indclouds       The 4 independent clouds generating function
+datagenCircle           The circle generating function
+datagenDiamond          The diamond generating function
+datagenParabola         The Parabola generating function
+datagenW                The W generating function
+pvHHG                   A nonparametric test of independence between
+                        two random vectors based on distances.
+pvHHG.slow              Computes the new tests p-values when the 2 by 2
+                        tables are summarized either by Pearson's
+                        statistics or the likelihood ratio statistic .

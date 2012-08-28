@@ -1,0 +1,2 @@
+exportPattern(".")
+useDynLib(HHG2x2)
