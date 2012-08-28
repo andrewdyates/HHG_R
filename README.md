@@ -1,5 +1,11 @@
-Modified HHG implementation to directly return the T statistics. 
-Maximum sum statistic value: (n)*(n-1)*(n-2)
+Modified HHG implementation; returns the T statistic rather than merely the p-value.
+
+Maximum values (log base _e_):
+
+  * sum_chisquared: `(n)*(n-1)*(n-2)`
+  * sum_lr: `(n)*(n-1)*(n-2) / log(2)`
+  * max_chisquared: `n-2`
+  * max_chisquared: `n-2 / log(2)`
 
 Compile:
 
