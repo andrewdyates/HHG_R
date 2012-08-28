@@ -1,4 +1,5 @@
-Modified HHG implementation to directly return the T statistics.
+Modified HHG implementation to directly return the T statistics. 
+Maximum sum statistic value: (n)*(n-1)*(n-2)
 
 Compile:
 
