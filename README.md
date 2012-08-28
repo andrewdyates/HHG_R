@@ -1,3 +1,5 @@
+Modified HHG implementation to directly return the T statistics.
+
 Compile:
 
     R CMD INSTALL HHG2x2 -l /path/to/HHG_R/
@@ -5,12 +7,13 @@ Compile:
 Run in R:
 
     > library("HHG2x2", lib.loc="/path/to/HHG_R")
-    > X = datagen4indclouds(50); 
+    > X = datagenCircle(50);
     > Dx = as.matrix(dist((X[1,]),diag=TRUE,upper=TRUE))
     > Dy = as.matrix(dist((X[2,]),diag=TRUE,upper=TRUE))
     > myHHG(Dx,Dy)
+    > pvHHG(Dx,Dy)
 
-Output:
+Output of myHHG:
 
     $sum_chisquared
     [1] 5081.871
