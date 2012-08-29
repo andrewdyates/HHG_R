@@ -9,7 +9,9 @@ Maximum values (log base _e_):
 
 Compile:
 
-    R CMD INSTALL HHG2x2 -l /path/to/HHG_R/
+    cd /path/to/HHG_R
+    cd ..
+    R CMD INSTALL HHG_R
 
 Run in R:
 
@@ -33,3 +35,14 @@ Output of myHHG:
     
     $max_lr
     [1] 10.03125
+
+
+See test_hhgR.py for python integration examples.
+
+Errors:
+    rpy2.rinterface.RRuntimeError: Error: package ‘HHG2x2’ was built for x86_64-apple-darwin10.8.0
+
+    
+Delete HHG2x2.o and HHG2x2.so and rebuild.
+
+
