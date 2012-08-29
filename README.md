@@ -1,4 +1,5 @@
 Modified HHG implementation; returns the T statistic rather than merely the p-value.
+(a)
 
 Maximum values (log base _e_):
 
