@@ -16,7 +16,7 @@ Compile:
 
 Run in R:
 
-    > library("HHG2x2", lib.loc="/path/to/HHG_R")
+    > library("HHG2x2")
     > X = datagenCircle(50);
     > Dx = as.matrix(dist((X[1,]),diag=TRUE,upper=TRUE))
     > Dy = as.matrix(dist((X[2,]),diag=TRUE,upper=TRUE))
