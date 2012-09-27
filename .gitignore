@@ -4,3 +4,5 @@
 .DS_*
 src/*.so
 src/*.o
+.RData
+.Rhistory

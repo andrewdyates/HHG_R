@@ -3,7 +3,7 @@ Modified HHG implementation; returns the T statistic rather than merely the p-va
 
 Maximum values (log base _e_):
 
-  * sum_chisquared: `(n)*(n-1)*(n-2)`
+  * sum_chisquared: `(n)*(n-2)*(n-3)`
   * sum_lr: `(n)*(n-1)*(n-2) / log(2)`
   * max_chisquared: `n-2`
   * max_chisquared: `n-2 / log(2)`
